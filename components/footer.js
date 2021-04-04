@@ -1,13 +1,14 @@
 const Header = () => (
-  <div className="Header">
-    HEADER
-    <style jsx>{`
-      background-color: #dbdb;
-      color: white;
-      width: 100%;
-      height: 50px;
-    `}</style>
-  </div>
+  <footer className="text-center flex flex-col items-center py-4 container mx-auto">
+    <div className="flex items-center my-4">
+     
+    </div>
+    <p className="underline">
+      <a href="#">
+        Gary
+      </a>
+    </p>
+  </footer>
 );
 
 export default Header;
